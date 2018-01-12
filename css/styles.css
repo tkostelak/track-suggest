@@ -1,0 +1,7 @@
+.jumbotron {
+  background-color: lightBlue;
+}
+
+#cSharp, #ruby, #java {
+  display: none;
+}
