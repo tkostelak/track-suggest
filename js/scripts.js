@@ -6,8 +6,7 @@ $(document).ready(function() {
   var preferMake = $("input:radio[name=preferMake]:checked").val();
   var describeSelf = $("input:radio[name=preferMake]:checked").val();
 
-
-  if (companyType === "largeCompanyYes") {
+if (companyType === "largeCompanyYes") {
     if (devType === "backEndDev")
           $("#cSharp").show();
   } else
