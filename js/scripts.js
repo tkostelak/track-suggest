@@ -10,20 +10,15 @@ $(document).ready(function() {
   if (companyType === "largeCompanyYes") {
     if (devType === "backEndDev")
           $("#cSharp").show();
-            alert("hello")
-    if 
-          (projectType === "mobileAppYes")
+  } else
+        if (projectType === "mobileAppYes") {
           $("#java").show();
-     if
-          (preferMake === "paymentApp")
+  } else
+        if (preferMake === "paymentApp") {
           $("#ruby").show();
-}
-
+  }
   event.preventDefault();
-
-
-
-});
+  });
 });
 
 

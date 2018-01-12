@@ -2,6 +2,18 @@
   background-color: lightBlue;
 }
 
-#cSharp, #ruby, #java {
+#cSharp, #ruby, #java, #javaScript {
   display: none;
+}
+
+#shrugPic {
+  float: right;
+}
+
+body {
+  background-color: ;
+}
+
+#girlShrug {
+  float: right;
 }
